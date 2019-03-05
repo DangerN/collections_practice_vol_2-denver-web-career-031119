@@ -29,10 +29,10 @@ def first_wa(collection)
 end
 
 def remove_non_strings(array)
-  array.each.with_index do |elem,index|
+  array.each do |elem|
     #binding.pry
     if !(elem.class == String)
-      array.delete_at(index)
+      array.delete(elem)
     end
   end
 end
