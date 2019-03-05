@@ -48,7 +48,7 @@ end
 def find_cool(hash)
   hash.each do | set |
    # binding.pry
-    return set if set.has_value?('cool')
+    return [set] if set.has_value?('cool')
   end
 end
 
