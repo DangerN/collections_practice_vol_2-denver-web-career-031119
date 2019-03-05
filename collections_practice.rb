@@ -39,12 +39,15 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  array.each do | n , name|
+    binding.pry
+  end
 end
 
-def merge_data()
+def merge_data(data_one , data_two)
 end
 
-def find_cool()
+def find_cool(hash)
 end
 
 def organize_schools()
