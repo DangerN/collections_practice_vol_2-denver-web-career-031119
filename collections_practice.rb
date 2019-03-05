@@ -35,6 +35,7 @@ def remove_non_strings(array)
       array.delete(elem)
     end
   end
+  binding.pry
 end
 
 def count_elements()
