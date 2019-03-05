@@ -30,7 +30,7 @@ end
 
 def remove_non_strings(array)
   array.each.with_index do |elem,index|
-    binding.pry
+    #binding.pry
     if !(elem.class == String)
       array.delete_at(index)
     end
