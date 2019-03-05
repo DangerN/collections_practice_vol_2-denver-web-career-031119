@@ -39,7 +39,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  new_arr = []
   array.each do | name |
+    if 
+      new_arr = << {count : 1, name: name}
     binding.pry
   end
 end
