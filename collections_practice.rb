@@ -60,7 +60,7 @@ def organize_schools(schools)
       organized_schools[location[:location]] = [school]
     else
       organized_schools[location[:location]] << school
-      binding.pry
-      
+      #binding.pry
+    end
   end
 end
