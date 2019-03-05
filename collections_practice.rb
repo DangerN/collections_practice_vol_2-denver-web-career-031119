@@ -1,3 +1,4 @@
+require 'pry'
 # your code goes here
 def begins_with_r(collection)
   collection.select do | letter |
