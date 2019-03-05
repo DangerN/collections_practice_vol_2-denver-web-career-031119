@@ -46,7 +46,7 @@ def merge_data(data_one , data_two)
   data_one.each do | person |
     binding.pry
     data_two.each do |peeps|
-      peeps.each do | stat, data |
+      peeps.each do | stat |
         binding.pry
       end
     end
