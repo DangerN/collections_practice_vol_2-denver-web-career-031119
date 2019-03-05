@@ -30,12 +30,12 @@ end
 
 def remove_non_strings(array)
   array.each do |elem|
-    binding.pry
+    #binding.pry
     if elem.class != String
       array.delete(elem)
     end
   end
-  binding.pry
+  #binding.pry
 end
 
 def count_elements()
