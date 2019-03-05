@@ -56,7 +56,9 @@ def organize_schools(schools)
   organized_schools = {}
   #binding.pry
   schools.each do | school, location |
-    organized_schools[location[:location]] = []
-    binding.pry
+    if 
+      organized_schools[location[:location]] = [] 
+      binding.pry
+      
   end
 end
