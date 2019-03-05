@@ -43,6 +43,7 @@ def count_elements(array)
 end
 
 def merge_data(data_one , data_two)
+  data_three
   binding.pry
 end
 
