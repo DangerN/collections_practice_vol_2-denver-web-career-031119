@@ -43,9 +43,10 @@ def count_elements(array)
 end
 
 def merge_data(data_one , data_two)
-  data_one.each do 
+  data_one.each do | person , stat |
   
-  binding.pry
+    binding.pry
+  end
 end
 
 def find_cool(hash)
