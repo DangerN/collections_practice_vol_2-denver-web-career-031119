@@ -21,7 +21,7 @@ end
 
 def first_wa(collection)
   collection.each do |elem|
-    binding.pry
+    #binding.pry
     if elem.to_s.start_with? 'wa'
       return elem
     end
