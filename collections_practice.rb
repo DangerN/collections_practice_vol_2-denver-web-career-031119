@@ -44,6 +44,7 @@ end
 
 def merge_data(data_one , data_two)
   data_one.each do | person |
+    binding.pry
     data_two[person[:first_name]].each do | stat, value |
       binding.pry
     end
