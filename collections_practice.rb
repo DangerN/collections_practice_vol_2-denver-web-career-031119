@@ -41,7 +41,7 @@ end
 def count_elements(array)
   new_arr = []
   array.each do | name |
-    if 
+    if new_arr.any? {
       new_arr = << {count : 1, name: name}
     binding.pry
   end
