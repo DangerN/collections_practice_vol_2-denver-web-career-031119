@@ -58,9 +58,9 @@ def organize_schools(schools)
   schools.each do | school, location |
     if !organized_schools.has_key?(location[:location])
       organized_schools[location[:location]] = [school]
-      binding.pry
+      #binding.pry
     else
-      binding.pry
+      #binding.pry
       organized_schools[location[:location]] << school
     end
   end
