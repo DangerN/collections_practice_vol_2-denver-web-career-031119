@@ -43,6 +43,7 @@ def count_elements(array)
   array.each do | name |
     if new_arr.any? { |h| h[:name] == name
       new_arr = << {count : 1, name: name}
+    else
     binding.pry
   end
 end
