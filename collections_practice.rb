@@ -39,7 +39,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.each do | n , name|
+  array.each do | name |
     binding.pry
   end
 end
