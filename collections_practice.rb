@@ -43,7 +43,7 @@ def count_elements(array)
 end
 
 def merge_data(data_one , data_two)
-  data_one.each do | person , stat |
+  data_one.each do | person |
   
     binding.pry
   end
