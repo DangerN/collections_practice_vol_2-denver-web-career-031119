@@ -39,13 +39,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  new_arr = []
-  array.each do | name |
-    if new_arr.any? { |h| h[:name] == name}
-      new_arr << {count: 1, name: name}
-    end
-    binding.pry
-  end
+
 end
 
 def merge_data(data_one , data_two)
