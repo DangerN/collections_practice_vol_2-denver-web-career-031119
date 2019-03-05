@@ -46,7 +46,9 @@ def merge_data(data_one , data_two)
 end
 
 def find_cool(hash)
-  binding.pry
+  hash.each do | set |
+    binding.pry
+  end
 end
 
 def organize_schools()
